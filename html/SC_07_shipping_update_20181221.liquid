@@ -1,0 +1,49 @@
+<body style="width: 100% !important; margin: 0; padding: 0;">
+<center>
+  <div style="padding: 10px ; line-height: 18px; font-family: 'Lucida Grande',Verdana,Arial,sans-serif; font-size: 12px; color:#444444;">
+    <div style="color: #b5b5b5;">{{delimiter}}</div>
+  </div>
+
+<h2 style="margin:0;padding:0;background-color:black;color:white;text-align:center"><img src="http://cdn.shopify.com/s/files/1/0266/0901/files/tweed_header.png?8191"></h2>
+</center>
+  <div style="padding: 10px ; line-height: 18px; font-family: 'Lucida Grande',Verdana,Arial,sans-serif; font-size: 12px; color:#444444;">
+
+<p>Order {{ name }} has new shipping information:<br/></p>
+
+<p>Items are being shipped{% if fulfillment.tracking_company %} via {{ fulfillment.tracking_company }}{% endif %} with tracking number {{ fulfillment.tracking_number }}. <a href="{{ fulfillment.tracking_url }}">Click here to see the status of this shipment</a>.</p>
+
+<p>Please allow some time for the status of the shipment to correctly display at the link above.</p>
+<h3>Important Shipping Information</h3>
+All orders placed with Tweed will be received through Canada Post. Your order will be delivered in an unmarked package that is sealed to ensure it remains odourless. Delivery time is expected to be within 1-3 days of ordering. A  signature is required upon delivery. </p>
+
+<div style="padding: 10px;background-color: black; color: white">
+  <table style="border:0;">
+  <tr>
+  <td> 
+
+  <p>
+    1 Hershey Drive <br />
+    Smiths Falls, Ontario<br />
+    K7A 0A8
+  </p>
+
+  <p>
+    <a href="mailto:hi@tweed.com" style="color: #fff">hi@tweed.com</a>
+  </p>
+  
+  </td>
+  <td style="text-align:right">
+
+  <p style="padding-top: 20px">
+    <a href="https://twitter.com/tweedinc"><img src="http://cdn.shopify.com/s/files/1/0266/0901/files/twitter.png?8191" alt="Twitter" /></a>
+
+    <a href="https://www.facebook.com/tweedinc"><img src="http://cdn.shopify.com/s/files/1/0266/0901/files/facebook.png?8191" alt="Facebook" /></a>
+
+
+
+    <a href="https://www.youtube.com/channel/UCmEYfLpwzkGW4IT2U4RgLbw"><img src="http://cdn.shopify.com/s/files/1/0266/0901/files/youtube.png?8191" alt="Facebook" /></a>
+  </p>
+</td>
+</tr>
+</table>
+</div>
